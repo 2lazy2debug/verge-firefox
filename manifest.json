@@ -1,0 +1,20 @@
+{
+    "manifest_version" :2,
+    "name" : "Verge Firefox Extension",
+    "version" : "0.0.1",
+    "description" : "A small Firefox Extension that bundles a compact Verge Wallet",
+    "homepage_url" : "https://vergecurrency.com",
+    "icons" : {
+        "48" : "icons/verge-48.png"
+    },
+
+    "permissions" : [
+        "activeTab"
+    ],
+
+    "browser_action" : {
+        "default_icon" : "icons/verge-48.png",
+        "default_title" : "Verge Extension",
+        "default_popup" : "popup/main.html"
+    }
+}

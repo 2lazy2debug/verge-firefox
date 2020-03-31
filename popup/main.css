@@ -1,0 +1,51 @@
+body {
+    background-color: #112134;
+}
+
+h1 {
+    font-family: Avenir_Next;
+    font-style: bold;
+    color: #FFFFFF;
+}
+
+#header {
+    height: 40px;
+    text-align: center;
+    padding: 4px;
+}
+
+#body {
+
+}
+
+#footer {
+    text-align: center;
+    padding: 2px;
+    height : 20px;
+}
+
+
+.title {
+    font-family: Avenir_Next;
+    font-style: bold;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.footnote {
+    font-family: Avenir_Next;
+    font-style: bold;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: Avenir_Next;
+    src: url(fonts/AvenirNext-DemiBold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Avenir_Next;
+    src: url(fonts/AvenirNext-Bold.ttf);
+    font-weight: bolder;
+}
